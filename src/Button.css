@@ -1,0 +1,34 @@
+.buttonLarge {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buttonSmall {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.buttonBlue {
+    background-color: blue;
+    color: white;
+    border: 1px solid darkblue;
+}
+
+.buttonGray {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gray;
+}
+
+button:disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+button:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)
+}
+
+button:active {
+    transform: scale(0.98);
+}

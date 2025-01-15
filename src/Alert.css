@@ -1,0 +1,10 @@
+.alert {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
