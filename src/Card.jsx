@@ -1,7 +1,6 @@
 import "./Card.css"
 import { FiShoppingCart } from "react-icons/fi";
 
-
 export function Card({ href, imgAlt, imgSrc, children }) {
     return (
         <div className="card">
