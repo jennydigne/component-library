@@ -34,7 +34,7 @@ export default function App() {
         <div className="component-container">
           <h2>Card</h2>
           <div className="cards">
-            <Card imgSrc="src/assets/potatoes.jpg" imgAlt="Potatoes" href="#">
+            <Card imgSrc="/assets/potatoes.jpg" imgAlt="Potatoes" href="#">
               <h3>Potatoes</h3>
                 <p className="card-price">$1.50/lb</p>
             </Card>
