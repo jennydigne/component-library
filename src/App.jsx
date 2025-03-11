@@ -10,6 +10,7 @@ import { FiInfo, FiAlertTriangle, FiCheck, FiX } from "react-icons/fi";
 export default function App() {
   return (
       <div className="library">
+        <h1>Component library</h1>
         <div className="component-container">
           <h2>Button</h2>
           <div className="buttons">
